@@ -11,5 +11,12 @@ Click on the first FASTAQ and the second FASTAQ for Sample 1: 13__Ccl19-EYFP_nai
 
 "L001" means Lane 1, and there should be Read1 and Read2
 
-After downloading, we should have L_001_R1 and L_001_R2
+After downloading, we should have L_001_R1.fastq and L_001_R2.fastq files
 
+Read1 file should contain cell barcodes and UMI, and Read2 file should contain cDNA sequences = transcript reads
+
+Because I am using macOS and Cell Ranger needs to run on Linux, I use kallisto | bustools developed by the Pachter Lab 
+
+In terminal, run this to create a virtual environment
+<conda create -n scrna-tools -c bioconda -c conda-forge kallisto bustools>
+<conda activate scrna-tools>
