@@ -24,9 +24,16 @@ conda create -n scrna-tools -c bioconda -c conda-forge kallisto bustools
 conda activate scrna-tools
 ```
 
-Download GRC38=mm10 transcriptomes fasta file
+Download the GRC38=mm10 transcriptomes fasta file from Gencode
 ```
 wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M25/gencode.vM25.transcripts.fa.gz
 gunzip gencode.vM25.transcripts.fa.gz
 ```
+
+Build kallisto index
+```R
+kallisto index -i mouse_transcriptome.idx gencode.vM25.transcripts.fa
+
+```
+
 
