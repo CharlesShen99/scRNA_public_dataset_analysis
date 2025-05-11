@@ -18,5 +18,8 @@ Read1 file should contain cell barcodes and UMI, and Read2 file should contain c
 Because I am using macOS and Cell Ranger needs to run on Linux, I use kallisto | bustools developed by the Pachter Lab 
 
 In terminal, run this to create a virtual environment
-<conda create -n scrna-tools -c bioconda -c conda-forge kallisto bustools>
+```
+conda create -n scrna-tools -c bioconda -c conda-forge kallisto bustools
 <conda activate scrna-tools>
+```
+
