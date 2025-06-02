@@ -11,6 +11,8 @@ Click on the first FASTAQ and the second FASTAQ for Sample 1: 13__Ccl19-EYFP_nai
 
 "L001" means Lane 1, and there should be Read1 and Read2
 
+"L001 I1" is the index read file, which contains 8bp-long sample barcodes.
+
 After downloading, we should have L_001_R1.fastq and L_001_R2.fastq files
 
 Read1 file should contain cell barcodes and UMI, and Read2 file should contain cDNA sequences = transcript reads
