@@ -19,6 +19,8 @@ Read1 file should contain cell barcodes and UMI, and Read2 file should contain c
 
 Because I am using macOS and Cell Ranger needs to run on Linux, I use kallisto | bustools developed by the Pachter Lab 
 
+gunzip -c file.fastq.gz | head -4
+
 In the terminal, run this to create a virtual environment
 
 ``` bash
