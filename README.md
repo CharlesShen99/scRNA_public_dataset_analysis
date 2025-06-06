@@ -1,4 +1,4 @@
-# scRNA_public_dataset_analysis
+# scRNA_public_dataset_analysis_from_FASTQ
 Public scRNA datasets download and analysis
 
 This is the public database under EMBL-EBI: https://www.ebi.ac.uk/biostudies/arrayexpress/studies
